@@ -12,10 +12,6 @@ section {
     clear: left;
 }
 
-div.item-name {
-    color: #ff0000;
-}
-
 div.menu-item-box {
     margin: auto;
     width: 95%;
@@ -24,6 +20,15 @@ div.menu-item-box {
     padding: 15px;
 }
 
-div.menu-item-box > p {
+div.item-name {
+    color: #ff0000;
+    text-align: center;
+    float: none;
+    position: relative;
+    
+}
+
+p.item-description {
     margin: 0px;
+    text-align: justify;
 }
