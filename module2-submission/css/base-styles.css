@@ -1,58 +1,61 @@
 * {
-    font-family: Calibri, Arial;
-    box-sizing: border-box;
+  font-family: Calibri, Arial;
+  box-sizing: border-box;
 }
 
 h1 {
-    color: #000000;
-    text-align: center;
-    font-size: 1.75em;
-    margin-bottom: 1.5em;
+  color: #000000;
+  text-align: center;
+  font-size: 1.75em;
+  margin-bottom: 1.5em;
 }
 
 div.menu-item-box {
-    /*
+  /*
     This line is the same as margin-left and margin-right but Google Chrome v86 didn't recognise it (Firefox v82 did)
     margin-inline: 10px;
     */
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #000000;
-    background-color: #cccccc;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  height: 100%;
+  border: 1px solid #000000;
+  background-color: #cccccc;
 }
 
 div.item-name {
-    text-align: center;
-    font-size: 1.25em;
-    font-weight: bold;
-    border: 1px solid #000000;
-    padding: 5px;
-    float: right;
-    position: relative;
-    top: -1px;
-    right: -1px;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+  border: 1px solid #000000;
+  padding: 5px;
+  float: right;
+  position: relative;
+  top: -1px;
+  right: -1px;
 }
 
 p.item-description {
-    /*
+  /*
     Looks nicer with justified text imo, but doesn't match the mockups :)
     text-align: justify;
     */
-    clear: right;
-    margin: auto;
-    padding: 10px;
+  clear: right;
+  margin: auto;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #chicken {
-    background-color: #d398ce;
+  background-color: #d398ce;
 }
 
 #beef {
-    background-color: #8a2a2a;
-    color: #ffffff;
+  background-color: #8a2a2a;
+  color: #ffffff;
 }
 
 #sushi {
-    background-color: #d1d093;
+  background-color: #d1d093;
 }
