@@ -2,6 +2,11 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.food-menu > .row {
+  width: 95%;
+  margin: auto;
+}
+
 .navbar {
   background-color: #8ee8ff;
 }
@@ -10,6 +15,19 @@
   font-size: 2em;
 }
 
-h1 {
+#menu-heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
+}
+
+.menu-item-box {
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: -10px 5px 5px #8eb2ff;
+  background-color: #8ee8ff;
+}
+
+.menu-item-description {
+  text-align: justify;
 }
