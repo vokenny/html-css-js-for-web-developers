@@ -12,9 +12,12 @@
   font-size: 2em;
 }
 
+a.nav-link:hover {
+  background-color: #8eb2ff;
+}
+
 /* Food menu */
 .food-menu > .row {
-  width: 90%;
   margin: auto;
 }
 
@@ -25,7 +28,7 @@
 }
 
 .menu-item-box {
-  margin-bottom: 30px;
+  margin: auto auto 30px;
   padding: 20px;
   box-shadow: -10px 5px 5px #8eb2ff;
   background-color: #8ee8ff;
